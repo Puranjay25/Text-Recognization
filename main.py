@@ -10,8 +10,8 @@ def sigmoid(s):
 
 data_matrix=sio.loadmat('data.mat')
 theta_matrix=sio.loadmat('weights.mat')
-data=sio.whosmat('ex3data1.mat')
-theta=sio.whosmat('ex3weights.mat')
+data=sio.whosmat('data.mat')
+theta=sio.whosmat('weights.mat')
 
 input_layer=data[0][1][1]
 hidden_layer=theta[0][1][0]
